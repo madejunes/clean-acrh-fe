@@ -13,7 +13,7 @@ export interface CartStorageService {
   emptyCart (): void;
 }
 
-export interface OrderStorageService {
+export interface OrdersStorageService {
   orders: Order[]
   updateOrders (orders: Order[]): void;
 }
